@@ -164,7 +164,8 @@ a {
   background-color: transparent;
 }
 a:hover {
-  color: #117964;
+  /*color: #117964;*/
+  color: #2bc7d9;
   text-decoration: underline;
 }
 
