@@ -6073,7 +6073,9 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #1abc9c !important;
+  /*background-color: #1abc9c !important;*/
+  background-color: #491e3c !important;
+  /*background-color: #3be5e6 !important;*/
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -10110,24 +10112,42 @@ h3 {
     font-size: 1.5em;
   }
 }
+
+
+
+
 .masthead {
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
-  background-image: url("../assets/img/cubic.gif");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
 }
+
+
+
 .masthead .masthead-heading {
   font-size: 2.75rem;
   line-height: 2.75rem;
+  z-index: 1;
 }
 .masthead .masthead-subheading {
   font-size: 1.25rem;
+  z-index: 1;
 }
 .masthead .masthead-avatar {
   width: 15rem;
+  z-index: 1;
 }
+
+
+
+#myVideo {
+  position: absolute;
+  top: -144px;
+  left: 0;
+  z-index: 0;
+  object-fit: cover;
+}
+
+
 
 @media (min-width: 992px) {
   .masthead {
@@ -10142,6 +10162,7 @@ h3 {
     font-size: 1.5rem;
   }
 }
+
 .portfolio .portfolio-item {
   cursor: pointer;
   position: relative;
