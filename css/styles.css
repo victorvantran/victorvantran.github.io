@@ -9999,6 +9999,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1;
 }
 .divider-custom .divider-custom-line {
   width: 100%;
@@ -10114,13 +10115,10 @@ h3 {
 }
 
 
-
-
 .masthead {
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
 }
-
 
 
 .masthead .masthead-heading {
@@ -10138,7 +10136,6 @@ h3 {
 }
 
 
-
 #myVideo {
   position: absolute;
   top: -144px;
@@ -10153,13 +10150,16 @@ h3 {
   .masthead {
     padding-top: calc(6rem + 104px);
     padding-bottom: 6rem;
+    z-index: 1;
   }
   .masthead .masthead-heading {
     font-size: 4rem;
     line-height: 3.5rem;
+    z-index: 1;
   }
   .masthead .masthead-subheading {
     font-size: 1.5rem;
+    z-index: 1;
   }
 }
 
