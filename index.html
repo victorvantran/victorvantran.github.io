@@ -142,7 +142,7 @@
                 </div>
                 <!-- About Section Button-->
                 <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="">
+                    <a class="btn btn-xl btn-outline-light" href="assets/downloadables/victor_tran_resume.pdf" target="_blank">
                         <i class="fas fa-download mr-2"></i>
                         Download
                     </a>
@@ -217,15 +217,24 @@
                                         <p class="mb-5">
                                             <br>
                                             This tile-based, procedurally generated world is built upon the open-source <a href="https://github.com/OneLoneCoder/olcPixelGameEngine/wiki" target="_blank">PixelGameEngine</a> by Javidx9.
-                                            This is a bare-bones engine that implements two main boiler-plate functions: reading keyboard inputs and rendering sprites from given .png file paths.
-                                            Using a shadow-casting algorithm for lighting with bilinear interpolation, perlin noise, quad tree, palette system with sqlite, AABB movement
+                                            The bare-bones PixelGameEngine implements two main boiler-plate functions: reading keyboard inputs and rendering sprites from given png file paths.
+                                            There are no "drag-and-drop" features or extensive libraries. The platformer physics, world chunk generation and saving, and lighting are self-implemented in C++.
+                                            Techniques such as QuadTrees, a palette system, multithreading, and double buffering optimize and prevent bottlenecking the CPU. Overlaying multiple Perlin Noise maps that follow the 
+                                            <a href="https://upload.wikimedia.org/wikipedia/commons/6/68/Climate_influence_on_terrestrial_biome.svg" target="_blank">Navarras Biome Graph</a> generates a natural-looking
+                                            procedurally generated world.
                                             <br>
                                             <br>
                                             For the source code and articles explaining the developmental process please visit
                                             <a href="https://github.com/victorvantran/2DProcedurallyGeneratedWorld" target="_blank">https://github.com/victorvantran/2DProcedurallyGeneratedWorld</a>!
                                         </p>
                                     </div>
+                                    <!--
                                     <a class="btn btn-xl btn-outline-dark" href="https://drive.google.com/uc?export=download&id=161i_y0rCAAzNKcR4hxPp7zw2U623jx2c">
+                                        <i class="fas fa-download mr-2"></i>
+                                        Download for Windows
+                                    </a>
+                                    -->
+                                    <a class="btn btn-xl btn-outline-dark" href="assets/downloadables/2DProcedurallyGeneratedWorld.zip">
                                         <i class="fas fa-download mr-2"></i>
                                         Download for Windows
                                     </a>
